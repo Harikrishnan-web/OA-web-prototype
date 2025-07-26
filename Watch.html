@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura page </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <input type="checkbox" name="" id="chk1">
+    <div class="logo"><h1>Aura page</h1></div>
+    <input type="checkbox" name="" id="chk1">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Watch.html">Aura flix</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li><a href="contact.html">Participate</a></li>
+            </ul>
+            <div class="menu">
+                <label for="chk1">
+                <i class="fa fa-bars"></i>
+                </label>
+            </div>
+    </header>
+
+    <div class="content">
+        <h1>Aura flix</h1>
+        <h3>"The long time you spend at productive purpose you'll grow as it is" by Harikrishnan.U</h3>
+    </div>
+    <div class="BGM2"></div>
+<body class="OFLIX">
+<div class="VC">
+    <h1>Videos</h1>
+<div class="video-container">
+       <div class="VA">
+        <video id="player" poster="3.jpg" muted controls><source src="1.mp4" type="video/mp4"></video>
+           <p><center>hjdsfdh</center></p>
+    </div>
+        <div class="VA">
+            <video id="player" muted controls><source src="3.mp4" type="video/mp4"></video></div>
+        <div class="VA">
+        <video id="player" muted controls><source src="2.mp4" type="video/mp4"></video></div>
+        <div class="VA">
+        <video id="player" muted controls><source src="4.mp4" type="video/mp4"></video></div>
+        <div class="VA">
+        <video id="player" muted controls><source src="5.mp4" type="video/mp4"></video></div>
+        <div class="VA">
+        <video id="player" muted controls><source src="6.mp4" type="video/mp4"></video></div>
+        <div class="VA">
+            <video id="player" muted controls><source src="11.mp4" type="video/mp4"></video></div>
+        <div class="VA">
+        <video id="player" muted controls><source src="12.mp4" type="video/mp4"></video></div>
+        <div class="VA">
+        <video id="player" muted controls><source src="13.mp4" type="video/mp4"></video></div>
+        <div class="VA">
+        <video id="player" muted controls><source src="14.mp4" type="video/mp4"></video></div>
+        <div class="VA">
+        <video id="player" muted controls><source src="15.mp4" type="video/mp4"></video></div>
+        <video id="player" muted controls><source src="16.mp4" type="video/mp4"></video></div>
+    <div class="PV">
+        <span>&times</span>
+        <video id="player" poster="3.jpg" muted autoplay controls><source src="1.mp4" type="video/mp4"></video>
+   
+    <script>
+    document.querySelectorAll('.video-container VA').for each(vid =>{
+     vid.onclick = () =>{
+        document.querySelector('.PV').style.display = 'block';
+        document.querySelector('.PV VA').src = vid.getAttribute('src');
+    }  
+    });
+    document.querySelector('PV span').onclick = () =>{
+    document.querySelector('.PV').style.display = 'none';  
+    }
+    </script>
+     </div>
+    </div>
+
+<body>
+
+  <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>MENU</h4>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="Watch.html">Aura flix</a></li>
+                    <li><a href="Events.html">Events</a></li>
+                    <li><a href="contact.html">Participate</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="contact.html">To upload videos</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>FEATURES</h4>
+                <ul>
+                    <li><a href="">Responsive</a></li>
+                    <li><a href="">Productive</a></li>
+                    <li><a href="">Ad-free</a></li>
+                    <li><a href="">Daily updates</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Credits</h4>
+                <ul>
+                    <li><a href="">Harikrishnan.U</a></li>
+                    <li><a href="">Dhruv.D</a></li>
+                    <li><a href="">Rizwan Khan.R</a></li>
+                    <li><a href="">Yashwandh.BK</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
